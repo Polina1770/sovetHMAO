@@ -23,7 +23,7 @@ body {
   max-width: 700px;
   list-style: none;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 35px;
   color: rgba(0, 0, 0, 0.6509803922);
 }
@@ -63,8 +63,8 @@ body {
 }
 .title__wrapper {
   margin-bottom: 60px;
-  height: 485px;
-  background: url(../images/home-title-13220.png) left top/auto 100% no-repeat;
+  height: 585px;
+  background: url(../images/home-title-13221.png) left top/auto 100% no-repeat;
 }
 .title__heading {
   position: relative;
@@ -73,7 +73,7 @@ body {
   margin-left: auto;
   width: 510px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 56px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -98,8 +98,10 @@ body {
   margin: 0 auto 240px;
   width: 1200px;
   height: 900px;
+  top: 20px;
 }
-.news__heading_left, .news__heading_right {
+.news__heading_left, 
+.news__heading_right {
   position: absolute;
   top: 50%;
   margin: 10px 0;
@@ -264,7 +266,7 @@ body {
   align-items: center;
   padding-left: 25px;
   width: 600px;
-  height: 250px;
+  height: 350px;
   background: rgba(255, 255, 255, 0.49);
   box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -275,7 +277,9 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background: #d9d9d9;
+}
+.round{
+  border-radius: 200px;
 }
 .board-card__name {
   font-weight: 500;
@@ -284,12 +288,21 @@ body {
   text-align: center;
   color: #000000;
 }
+.board-card__insert{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-top: -15px;
+}
 .board-card__description {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 35px;
   text-align: start;
   color: rgba(0, 0, 0, 0.59);
+  margin-top: -15px;
 }
 
 .footer {
